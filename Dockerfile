@@ -23,6 +23,7 @@ RUN \
      python3-xdg \
      libatk1.0 \
      libatk-bridge2.0 \
+     libgtk-3-0 \
      libnss3 \
      libportaudio2 && \
   echo "**** install noi ****" && \
