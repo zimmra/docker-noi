@@ -17,14 +17,14 @@ RUN \
   curl -o \
     /kclient/public/icon.png \
     https://raw.githubusercontent.com/lencx/Noi/main/website/static/readme/noi.png && \
-#   echo "**** install packages ****" && \
-#   apt-get update && \
-#   apt-get install -y \
-#     python3-xdg \
-#     libatk1.0 \
-#     libatk-bridge2.0 \
-#     libnss3 \
-#     libportaudio2 && \
+   echo "**** install packages ****" && \
+   apt-get update && \
+   apt-get install -y \
+     python3-xdg \
+     libatk1.0 \
+     libatk-bridge2.0 \
+     libnss3 \
+     libportaudio2 && \
   echo "**** install noi ****" && \
   if [ -z ${NOI_VERSION+x} ]; then \
     NOI_VERSION=$(curl -sX GET "https://api.github.com/repos/lencx/Noi/releases/latest" \
