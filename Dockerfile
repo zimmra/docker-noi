@@ -33,7 +33,7 @@ RUN \
   cd /tmp && \
   curl -o \
     /tmp/noi.app -L \
-    "https://github.com/lencx/Noi/releases/download/v${NOI_VERSION}/Noi_linux_${Noi_VERSION}.AppImage" && \
+    "https://github.com/lencx/Noi/releases/download/v${NOI_VERSION}/Noi_linux_${NOI_VERSION}.AppImage" && \
   chmod +x /tmp/noi.app && \
   ./noi.app --appimage-extract && \
   mv squashfs-root /opt/noi && \
