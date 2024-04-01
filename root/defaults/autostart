@@ -1,1 +1,2 @@
-/opt/noi/AppRun
+/opt/noi/AppRun && \
+(sleep 4 && xdotool key F11)
