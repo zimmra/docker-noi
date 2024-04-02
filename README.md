@@ -3,7 +3,7 @@
 
 Can be found at https://hub.docker.com/r/pzubuntu593/docker-noi
 
-Based off LSIO's implementation of (KasmVNC w/ Audacity)[https://github.com/linuxserver/docker-audacity]
+Based off LSIO's implementation of [KasmVNC w/ Audacity](https://github.com/linuxserver/docker-audacity)
 
 
 ## Docker Compose Example
